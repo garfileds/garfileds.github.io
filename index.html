@@ -178,6 +178,88 @@
           
           
             
+              <a class="post-title-link" href="/ML/斯坦福机器学习1：线性回归和分类/">
+                斯坦福机器学习1：线性回归和分类
+              </a>
+            
+          
+        </h1>
+      
+
+      <div class="post-meta">
+        <span class="post-time">
+          发表于 2015-07-04
+        </span>
+
+        
+          <span class="post-category">
+            &nbsp; | &nbsp; 分类于
+            
+              <a href="/categories/ML/">ML</a>
+
+              
+              
+
+            
+          </span>
+        
+
+        
+          
+            <span class="post-comments-count">
+            &nbsp; | &nbsp;
+            <a href="/ML/斯坦福机器学习1：线性回归和分类/#comments" >
+              <span class="post-comments-count ds-thread-count" data-thread-key="ML/斯坦福机器学习1：线性回归和分类/"></span>
+            </a>
+          </span>
+          
+        
+      </div>
+    </div>
+
+    <div class="post-body">
+
+      
+      
+
+      
+        
+          <p>线性回归属于监督学习的一种，解决的问题是根据给定特征值去预测目标值（目标值的集合可为连续，即回归问题；可为离散，即分类问题），回归之意就是通过已有训练集去拟合得到特征值与目标值之间的映射关系，因此问题的输出应是一个函数h。</p>
+<p>线性回归的输出应是 <code>y=a0 * x0 + a1 * x1 + a2 * x2</code>（假设有两个特征值, x0 = 1），所以问题就变成了如何求 <code>a0</code>、<code>a1</code>、<code>a2</code>这些系数，这里需要一个表示方法来定量表示所求出的函数是好还是不好，线性回归问题是通过最小二乘定量表示，logistic回归则是通过最大似然率定量表示，得到的都是以所求系数为自变量的函数。这里就引入了梯度下降和牛顿法，二者皆是求解多个参数下如何取得因变量最小值的问题。</p>
+<h3 id="线性回归">线性回归</h3><p>问题： 系数取何值时，<img src="/images/leastSquares.png" alt="leastSquares"> 最小？</p>
+<p>解决： 梯度下降或牛顿法迭代<br>    <img src="/images/niudunForLG.png" alt="niudunForLG"></p>
+<h3 id="logistic回归">logistic回归</h3><p>问题： 系数取何值时，最大似然率最大？此时所求函数为 <img src="/images/logisticFunc.png" alt="logisticFunc">。</p>
+<p>解决： 梯度下降或牛顿法迭代<br>    <img src="/images/niudunForLogG.png" alt="niudunForLogG"></p>
+<h3 id="局部加权回归">局部加权回归</h3><h3 id="大一统：概率论解释">大一统：概率论解释</h3>
+        
+      
+    </div>
+
+    <div class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </div>
+  </div>
+
+
+    
+      
+
+  <div class="post post-type-normal ">
+    <div class="post-header">
+
+      
+      
+        <h1 class="post-title">
+          
+          
+            
               <a class="post-title-link" href="/where/hello-world/">
                 Hello World
               </a>
@@ -275,21 +357,21 @@
         <div class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">1</span>
+              <span class="site-state-item-count">2</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
 
           <div class="site-state-item site-state-categories">
             <a href="/categories">
-              <span class="site-state-item-count">0</span>
+              <span class="site-state-item-count">1</span>
               <span class="site-state-item-name">分类</span>
               </a>
           </div>
 
           <div class="site-state-item site-state-tags">
             <a href="/tags">
-              <span class="site-state-item-count">0</span>
+              <span class="site-state-item-count">3</span>
               <span class="site-state-item-name">标签</span>
               </a>
           </div>
